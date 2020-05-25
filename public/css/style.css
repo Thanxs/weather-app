@@ -1,0 +1,41 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 16px 0;
+    border-top: 2px solid #eeeeee;
+}
+
+.graph {
+    width: 550px;
+}
+
+.error {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
