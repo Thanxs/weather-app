@@ -3,6 +3,8 @@ const { join } = require('path');
 const hbs = require('hbs');
 
 const app = express();
+const PORT = process.env.PORT || 3000;
+
 const publicDirectory = join(__dirname, '../public');
 const viewsPath = join(__dirname, '../templates/views');
 const partilsPath = join(__dirname, '../templates/partials');
@@ -76,6 +78,6 @@ app.get('*', (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-    console.log('Server is running on port 3000');
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
 });
